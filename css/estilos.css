@@ -81,6 +81,7 @@ body{
 .hero__texts{
     width: 80%;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .hero__title{
@@ -95,11 +96,20 @@ body{
 
 .hero__cta{
     display: inline-block;
+    max-width: 400px;
     background: #fff;
-    padding: var(--boton-padding);
     color: var(--color-primary);
     text-decoration: none;
+    font-size: larger;
     border-radius: 40px;
+
+}
+
+.contactame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
 }
 
 .hero__wave{
@@ -280,6 +290,18 @@ body{
     border: 3px solid #fff;
     margin-right: 30px;
 }
+
+.what__img{
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-left: 30px;
+}
+
+
 
 .testimony__name{
     font-size: 1.5rem;
