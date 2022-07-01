@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundo Biker</title>
+    <link type="image/png" sizes="120x120" rel="icon" href=".../icons8-casco-de-la-moto-120.png">
+    <title>MUNDO BIKER</title>
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,9 +16,9 @@
     <header class="hero">
         <div class="container">
             <nav class="nav">
-                <a href="/contact.html" class="nav__items nav__items--cta">Contactame ahora</a>
-                <a href="#" class="nav__items">Sobre Nosotros</a>
-                <a href="#" class="nav__items">Galeria</a>
+                <a href="/PaginaWeb-MundoBiker/contact.html" class="nav__items nav__items--cta">Contactame ahora</a>
+                <a href="#sobre-nosotros" class="nav__items">Sobre Nosotros</a>
+                <a href="/PaginaWeb-MundoBiker/portafolio.html" class="nav__items">Galeria</a>
                 <a href="/index.html" class="nav__items">Inicio</a>
             </nav>
 
@@ -24,7 +26,9 @@
                 <div class="hero__texts">
                     <h1 class="hero__title">MUNDO BIKER SAS</h1>
                     <h2 class="hero__subtitle">Venta de Motos y Repuestos</h2>
-                    <a href="#" class="hero__cta">Contactame ahora</a>
+                    <a href="#" class="hero__cta">
+                        <div class="contactame">Contactame ahora <img src="img/LogoWhats.png" class="what__img"></div>
+                    </a>
                 </div>
             </section>
         </div>
@@ -37,6 +41,7 @@
 
     <main>
         <section class="presentation container">
+            <a name="sobre-nosotros"></a>
             <img src="img/logo.jpeg" class="presentation__picture">
             <h2 class="subtitle">Nos Conocen por Nuestra Calidad y Servicio</h2>
             <p class="presentation__copy">Hace años el mercado de las motocicletas en Colombia y en latinoamerica viene
@@ -71,12 +76,16 @@
 
             <div class="about__texts">
                 <h2 class="subtitle">Repuestos de Calidad y Originales</h2>
-                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cum soluta
-                    magnam in dolorum, voluptatibus maxime fuga natus repudiandae commodi, dolore totam laborum dolorem
-                    tempore est ab corrupti? Quas, repudiandae!</p>
-                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cum soluta
-                    magnam in dolorum, voluptatibus maxime fuga natus repudiandae commodi, dolore totam laborum dolorem
-                    tempore est ab corrupti? Quas, repudiandae!</p>
+                <p class="about__paragraph">Ademas somos una empresa distribuidora de repuestos, llantas y accesorios de
+                    todas las marcas para motocicletas de gama alta.
+                    Nuestro principal objetivo es lograr que cada motociclista, mayorista de repuestos y taller de
+                    servicio, pueda encontrar lo que necesita en un solo lugar
+                    y al mejor precio a través del más amplio portafolio de productos y servicios</p>
+                <p class="about__paragraph">Poseemos un completo inventario de repuestos originales en las líneas BMW,
+                    APRILIA, HONDA, KAWASAKI, SUZUKI y YAMAHA, el cual se
+                    complementa con otra serie de repuestos alternativos o genéricos de gran calidad. Esta variedad nos
+                    permite ofrecer a nuestros clientes un rango de precios
+                    más amplio, pero siempre cumpliendo sus expectativas.</p>
             </div>
 
         </section>
@@ -131,33 +140,33 @@
         </section>
 
         <section class="testimony container">
-            <h2 class="subtitle">¿Qué dicen de nosotros?</h2>
+            <h2 class="subtitle">Formas de Pago</h2>
 
             <div class="testimony__grid">
                 <article class="testimony__item">
                     <div class="testimony__person">
-                        <img src="img/man.jpg" class="testimony__img">
+                        <img src="img/pagos.jpg" class="testimony__img">
                         <div class="testimony__texts">
-                            <h3 class="testimony__name">Jordan Alexander</h3>
-                            <p class="testimony__verification">Creador de Apple</p>
+                            <h3 class="testimony__name">Efectivo y/o Tarjetas</h3>
+                            <p class="testimony__verification">Debito y/o Credito</p>
                         </div>
                     </div>
 
-                    <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-                        aspernatur delectus libero beatae quidem perspiciatis quaerat doloremque ullam fugit ea?</p>
+                    <p class="testimony__review">Recibimos todas las tarjetas, ademas de ello podemos combinar
+                        el pago entre Efectivo y/o tarjeta Debito o Credito </p>
                 </article>
                 <article class="testimony__item">
                     <div class="testimony__person">
-                        <img src="img/man.jpg" class="testimony__img">
+                        <img src="img/wunion.jpg" class="testimony__img">
                         <div class="testimony__texts">
-                            <h3 class="testimony__name">Jordan Alexander</h3>
-                            <p class="testimony__verification">Creador de Apple</p>
+                            <h3 class="testimony__name">Wester Union</h3>
+                            <p class="testimony__verification">Pagos Internacionales</p>
                         </div>
                     </div>
 
-                    <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-                        aspernatur delectus libero beatae quidem perspiciatis quaerat doloremque ullam fugit ea?</p>
-                </article>
+                    <p class="testimony__review">Para Nuestros clientes internacionales tenemos Pagos
+                        Gracias a nuestro convenio con Wester Union. </p>
+
             </div>
         </section>
     </main>
@@ -187,6 +196,9 @@
 
                 </div>
             </section>
+        </div>
+        <div class="creado-por">
+            <p>Sitio diseñado por <a href="#">Daniel Torres Londoño</a> - <a href="#">CrearToWeb</a></p>
         </div>
     </footer>
 
